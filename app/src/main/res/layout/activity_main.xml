@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button android:id="@+id/btnProfile"
+        android:text="Profile"
+        android:onClick="openActivity"
+        style="@style/ButtonStyle" />
+
+    <Button android:id="@+id/btnSummary"
+        android:text="Summary"
+        android:onClick="openActivity"
+        style="@style/ButtonStyle" />
+
+    <Button android:id="@+id/btnEducation"
+        android:text="Education"
+        android:onClick="openActivity"
+        style="@style/ButtonStyle" />
+
+    <Button android:id="@+id/btnExperience"
+        android:text="Experience"
+        android:onClick="openActivity"
+        style="@style/ButtonStyle" />
+
+    <Button android:id="@+id/btnCertifications"
+        android:text="Certifications"
+        android:onClick="openActivity"
+        style="@style/ButtonStyle" />
+
+    <Button android:id="@+id/btnReferences"
+        android:text="References"
+        android:onClick="openActivity"
+        style="@style/ButtonStyle" />
+</LinearLayout>
